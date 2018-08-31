@@ -1,0 +1,154 @@
+<object-stream>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule for salary [1]</activationId>
+  <rule>rule for salary</rule>
+  <declarations>person=Person [name=akash, age=22, salary=1266.1, citizenship=usa, ](1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Check some condition [1]</activationId>
+  <rule>Check some condition</rule>
+  <declarations>person=Person [name=akash, age=22, salary=1266.1, citizenship=usa, ](1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>To get the name with their citizenship [1]</activationId>
+  <rule>To get the name with their citizenship</rule>
+  <declarations>person=Person [name=akash, age=22, salary=1266.1, citizenship=usa, ](1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>1</factId>
+  <objectToString>Person [name=akash, age=22, salary=1266.1, citizenship=usa, ]</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>For an age [2]</activationId>
+  <rule>For an age</rule>
+  <declarations>person=Person [name=vijay, age=30, salary=2666.0, citizenship=india, ](2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule for an salary [2]</activationId>
+  <rule>Rule for an salary</rule>
+  <declarations>person=Person [name=vijay, age=30, salary=2666.0, citizenship=india, ](2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>2</factId>
+  <objectToString>Person [name=vijay, age=30, salary=2666.0, citizenship=india, ]</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule for an dept [3]</activationId>
+  <rule>Rule for an dept</rule>
+  <declarations>dept=com.beans.Department@3370f42(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Department wise offer [3]</activationId>
+  <rule>Department wise offer</rule>
+  <declarations>dept=com.beans.Department@3370f42(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>3</factId>
+  <objectToString>com.beans.Department@3370f42</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Department wise offer [3]</activationId>
+  <rule>Department wise offer</rule>
+  <declarations>dept=com.beans.Department@3370f42(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Department wise offer [3]</activationId>
+  <rule>Department wise offer</rule>
+  <declarations>dept=com.beans.Department@3370f42(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule for an dept [3]</activationId>
+  <rule>Rule for an dept</rule>
+  <declarations>dept=com.beans.Department@3370f42(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule for an dept [3]</activationId>
+  <rule>Rule for an dept</rule>
+  <declarations>dept=com.beans.Department@3370f42(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule for an salary [2]</activationId>
+  <rule>Rule for an salary</rule>
+  <declarations>person=Person [name=vijay, age=30, salary=2666.0, citizenship=india, ](2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule for an salary [2]</activationId>
+  <rule>Rule for an salary</rule>
+  <declarations>person=Person [name=vijay, age=30, salary=2666.0, citizenship=india, ](2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>For an age [2]</activationId>
+  <rule>For an age</rule>
+  <declarations>person=Person [name=vijay, age=30, salary=2666.0, citizenship=india, ](2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>For an age [2]</activationId>
+  <rule>For an age</rule>
+  <declarations>person=Person [name=vijay, age=30, salary=2666.0, citizenship=india, ](2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Check some condition [1]</activationId>
+  <rule>Check some condition</rule>
+  <declarations>person=Person [name=akash, age=22, salary=1266.1, citizenship=usa, ](1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Check some condition [1]</activationId>
+  <rule>Check some condition</rule>
+  <declarations>person=Person [name=akash, age=22, salary=1266.1, citizenship=usa, ](1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule for salary [1]</activationId>
+  <rule>rule for salary</rule>
+  <declarations>person=Person [name=akash, age=22, salary=1266.1, citizenship=usa, ](1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule for salary [1]</activationId>
+  <rule>rule for salary</rule>
+  <declarations>person=Person [name=akash, age=80, salary=1266.1, citizenship=usa, ](1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Check some condition [1]</activationId>
+  <rule>Check some condition</rule>
+  <declarations>person=Person [name=akash, age=80, salary=1266.1, citizenship=usa, ](1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>For an age [1]</activationId>
+  <rule>For an age</rule>
+  <declarations>person=Person [name=akash, age=80, salary=1266.1, citizenship=usa, ](1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>1</factId>
+  <objectToString>Person [name=akash, age=80, salary=1266.1, citizenship=usa, ]</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule for salary [1]</activationId>
+  <rule>rule for salary</rule>
+  <declarations>person=Person [name=akash, age=80, salary=1266.1, citizenship=usa, ](1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+</object-stream>

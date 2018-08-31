@@ -1,0 +1,83 @@
+package com.sample
+ import com.beans.Person;
+ import com.beans.Department
+//here i can declare an global variable
+
+rule   "rule for salary"
+salience 2
+when 
+person: Person(name=="akash")
+then
+System.out.println(person.getName()+" "+"kothari");
+// if we wnt to modify something we can do this by using modify	
+ modify(person)
+		  { 
+		  setAge( 80 ) 
+		  }
+System.out.println(person.getAge()+" "+ "the Age of person");
+//drools.halt method is used to sort out the problem to get out from the infinite loop		  
+drools.halt();
+end
+
+rule  "To get the name with their citizenship"
+salience 1
+when
+person: Person(citizenship=="usa")
+then
+System.out.println(person.getAge() +"  "+" the Age of person" +" " + person.getName() +" " + "Name of person"+person.getSalary()+" " +"salary of a person");
+end
+
+
+rule "Check some condition"
+salience 3
+when 
+person: Person(name== "akash" , age > 20 )		
+then 
+System.out.println(person.getCitizenship()+" "  + "rule no 3 to check conditions");
+end
+
+rule "For an age"
+salience 4
+when
+person:Person( age >= 30 && < 85 || citizenship == "india" )
+then
+System.out.println(person.getAge() +" "+ "rule no 4 for age ");
+end
+
+rule "Rule for an salary"
+salience 5
+
+when
+person: Person(salary > 1500 ) 
+then
+System.out.println(person.getCitizenship() +"  "+ "Salary Rule No 5");
+end
+
+
+
+rule   "Rule for an dept"  
+salience 6
+when 
+    dept : Department (depname == "IT")
+
+ then 
+ dept.setDiscount(20);
+ 
+ System.out.println(dept.getDiscount());
+  end
+  
+rule "Department wise offer"
+salience 7
+when 
+		dept: Department(depname=="IT")
+then
+		dept.setDiscount(dept.getDiscount()+6);
+		System.out.println("Offer for Gold" +" "+(dept.getDiscount()));
+end
+
+
+
+
+
+
+
